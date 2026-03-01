@@ -1,0 +1,154 @@
+{
+  "trastornos": [
+    {
+      "codigo_dsm5": "296.21",
+      "nombre": "Trastorno de depresión mayor",
+      "criterios": {
+        "operador": "AND",
+        "condiciones": [
+          {
+            "operador": "AT_LEAST",
+            "cantidad": 1,
+            "sintomas": ["animo_deprimido", "perdida_interes_placer"]
+          },
+          {
+            "operador": "AT_LEAST",
+            "cantidad": 5,
+            "sintomas": [
+              "animo_deprimido",
+              "perdida_interes_placer",
+              "cambio_peso_apetito",
+              "insomnio_hipersomnia",
+              "agitacion_retraso_psicomotor",
+              "fatiga_perdida_energia",
+              "sentimiento_inutilidad_culpa",
+              "dificultad_concentracion",
+              "pensamientos_muerte_suicidio"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "codigo_dsm5": "300.02",
+      "nombre": "Trastorno de ansiedad generalizada",
+      "criterios": {
+        "operador": "AND",
+        "condiciones": [
+          {
+            "operador": "AT_LEAST",
+            "cantidad": 2,
+            "sintomas": [
+              "ansiedad_preocupacion_excesiva",
+              "dificultad_controlar_preocupacion"
+            ]
+          },
+          {
+            "operador": "AT_LEAST",
+            "cantidad": 3,
+            "sintomas": [
+              "inquietud_nerviosismo",
+              "fatiga_facil",
+              "dificultad_concentracion_mente_blanco",
+              "irritabilidad",
+              "tension_muscular",
+              "problemas_sueno"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "codigo_dsm5": "300.01",
+      "nombre": "Trastorno de pánico",
+      "criterios": {
+        "operador": "AND",
+        "condiciones": [
+          {
+            "operador": "AT_LEAST",
+            "cantidad": 4,
+            "sintomas": [
+              "palpitaciones",
+              "sudoracion",
+              "temblores",
+              "sensacion_asfixia",
+              "sensacion_ahogo",
+              "dolor_torax",
+              "nauseas",
+              "mareo_desmayo",
+              "escalofrios_calor",
+              "parestesias",
+              "desrealizacion",
+              "miedo_perder_control",
+              "miedo_morir"
+            ]
+          },
+          {
+            "operador": "AT_LEAST",
+            "cantidad": 1,
+            "sintomas": [
+              "preocupacion_nuevos_ataques_1_mes",
+              "cambio_comportamiento_evitacion_1_mes"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "codigo_dsm5": "307.42",
+      "nombre": "Trastorno de insomnio",
+      "criterios": {
+        "operador": "AND",
+        "condiciones": [
+          {
+            "operador": "AT_LEAST",
+            "cantidad": 1,
+            "sintomas": [
+              "dificultad_iniciar_sueno",
+              "dificultad_mantener_sueno",
+              "despertar_pronto_manana"
+            ]
+          },
+          {
+            "operador": "AT_LEAST",
+            "cantidad": 2,
+            "sintomas": [
+              "frecuencia_minimo_3_noches_semana",
+              "duracion_minimo_3_meses"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "codigo_dsm5": "296.4x",
+      "nombre": "Trastorno Bipolar I (Episodio Maníaco)",
+      "criterios": {
+        "operador": "AND",
+        "condiciones": [
+          {
+            "operador": "AT_LEAST",
+            "cantidad": 2,
+            "sintomas": [
+              "animo_elevado_expansivo",
+              "aumento_energia_actividad_1_semana"
+            ]
+          },
+          {
+            "operador": "AT_LEAST",
+            "cantidad": 3,
+            "sintomas": [
+              "aumento_autoestima_grandeza",
+              "disminucion_necesidad_dormir",
+              "mas_hablador_habitual",
+              "fuga_ideas",
+              "facilidad_distraccion",
+              "aumento_actividad_objetivo",
+              "participacion_actividades_riesgo"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
